@@ -17,6 +17,7 @@ export const Container = styled.div`
         height: 55vh;
         background-color: var(--background);
         border-radius: 1rem;
+        z-index: 10;
     
         display: flex;
         flex-direction: row;

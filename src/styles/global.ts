@@ -17,8 +17,9 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --background: #2d2d2a;
-        --background2: #4C4C47;
+        --background2: #3D3D3D;
         --alt1: #F0F757;
+        --alt2: #F7FFF7;
 
     }
 
