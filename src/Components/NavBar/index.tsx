@@ -18,6 +18,7 @@ export function NavBar(){
             </div>
             <nav>
                 <ul>
+
                     <li><a
                         onClick={ ()=>{ 
                             const about = document.getElementById('aboutScrollPoint');
@@ -27,7 +28,15 @@ export function NavBar(){
                         } }
                     >About</a></li>
 
-                    <li><a href="#">Skills</a></li>
+                    <li><a
+                        onClick={ ()=>{ 
+                            const about = document.getElementById('projectsScrollPoint');
+                            if( about ){
+                                about.scrollIntoView({behavior: "smooth"});
+                            }
+                        } }
+                    >Projects</a></li>
+
                     <li><a href="#">Contact</a></li>
                     <li><a href="https://resume.io/r/V3oq5FIYs">Resume</a></li>
                 </ul>            

@@ -33,7 +33,7 @@ export function RepositoryItem( props: RepositoryItemProps ){
     return (
         <ReposContainer>
             
-            <a href={props.repository.html_url}>{props.repository.name}</a>
+            <a href={props.repository.html_url} target="_blank">{props.repository.name}</a>
             <img src={reposPreviews[props.repository.id]}/>
             <p>{props.repository.description}</p>
             <div className="tools"> <b>Tools used:</b> {toolsString.join(', ')}.</div>

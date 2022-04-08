@@ -35,22 +35,26 @@ export const ReposContainer = styled.div`
 
         font-weight: bold;
         font-family: 'Cantarell',sans-serif;
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
+        font-size: 2rem;
         color: var(--alt2);
     }
 
     p{
-        margin-top: -1.8rem;
+        /* margin-top: -1.8rem; */
+        margin-top: -2.2rem;
         grid-area: 2 / 4 / 4 / 9;
         color: var(--alt2);
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
+        font-size: 1.2rem;
         line-height: 2.5rem;
     }
 
     div.tools{
         grid-area: 4 / 4 / 5 / 9;
         color: var(--alt2);
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
+        font-size: 1rem;
         display: flex;
         align-items: flex-end;
         padding-bottom: 0.2rem;
