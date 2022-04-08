@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/MyWebsite/static/js/main.6ab2208c.js",
+    "static/media/snakePreview.gif": "/MyWebsite/static/media/snakePreview.6c90cc27ccc716f144d2.gif",
+    "static/media/websitePreview.png": "/MyWebsite/static/media/websitePreview.f7b689162b37786f3c4d.png",
+    "static/media/LeePicture2.jpg": "/MyWebsite/static/media/LeePicture2.5539b0f2ecfcc88b68bb.jpg",
+    "static/media/cicloHamiltPreview.png": "/MyWebsite/static/media/cicloHamiltPreview.7aefa4ad5dbd19c154b7.png",
+    "static/media/magicGolemsPreview.png": "/MyWebsite/static/media/magicGolemsPreview.a32f30f71f71819157b5.png",
+    "static/media/tiktaktoePreview.png": "/MyWebsite/static/media/tiktaktoePreview.fd0fbc2ce0823bdc46dd.png",
+    "static/media/avatarSmiling.png": "/MyWebsite/static/media/avatarSmiling.bf7fe74c4b99cf56240c.png",
+    "static/media/linkedin-fill.svg": "/MyWebsite/static/media/linkedin-fill.8aafb4906e2cb3d5b2a00fab49bd395a.svg",
+    "static/media/github-fill.svg": "/MyWebsite/static/media/github-fill.f03fdeb349df1b6803cf34a031faa04f.svg",
+    "static/media/map.svg": "/MyWebsite/static/media/map.a3b0c97543ed9fece8fb3935f44329db.svg",
+    "index.html": "/MyWebsite/index.html",
+    "static/media/file.svg": "/MyWebsite/static/media/file.56cb8f1fe813b591a852f1a703f88ead.svg",
+    "static/media/envelope.svg": "/MyWebsite/static/media/envelope.63d2f84ce5335508a7c5560b6be70bd6.svg",
+    "main.6ab2208c.js.map": "/MyWebsite/static/js/main.6ab2208c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6ab2208c.js"
+  ]
+}
