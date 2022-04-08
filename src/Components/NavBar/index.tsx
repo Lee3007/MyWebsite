@@ -30,14 +30,22 @@ export function NavBar(){
 
                     <li><a
                         onClick={ ()=>{ 
-                            const about = document.getElementById('projectsScrollPoint');
-                            if( about ){
-                                about.scrollIntoView({behavior: "smooth"});
+                            const projects = document.getElementById('projectsScrollPoint');
+                            if( projects ){
+                                projects.scrollIntoView({behavior: "smooth"});
                             }
                         } }
                     >Projects</a></li>
 
-                    <li><a href="#">Contact</a></li>
+                    <li><a
+                        onClick={ ()=>{ 
+                            const contact = document.getElementById('contactScrollPoint');
+                            if( contact ){
+                                contact.scrollIntoView({behavior: "smooth"});
+                            }
+                        } }
+                    >Contact</a></li>
+
                     <li><a href="https://resume.io/r/V3oq5FIYs">Resume</a></li>
                 </ul>            
             </nav>        

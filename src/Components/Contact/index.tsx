@@ -8,7 +8,7 @@ export function Contact(){
         <Container>
                 <h1 className="contactSectionTitle">Say Hello!</h1>
 
-                <ul>
+                <ul id="contactScrollPoint">
                     <ContactItem name="Linkedin" link="https://www.linkedin.com/in/felipelee30/" icon={iconsSVG["linkedinSVG"]} />
                     <ContactItem name="GitHub" link="https://github.com/Lee3007" icon={iconsSVG["githubSVG"]} />
                     <ContactItem name="Resume" link="https://resume.io/r/V3oq5FIYs" icon={iconsSVG["resumeSVG"]} />
