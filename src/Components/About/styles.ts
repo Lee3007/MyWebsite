@@ -1,13 +1,17 @@
 import styled from 'styled-components'
 
 export const Wave = styled.svg`
-    width: 100%;
+    min-width: 100%;
     background-color: var(--background-color);
     fill: var(--background-color);
+    margin-bottom: 5rem;
 `
 
 export const Container = styled.section`
+    /* height: 40rem; */
     background-color: var(--alt1);
+    /* height: 19rem; */
+    /* background-color: blue; */
     text-align: center;
     font-family: 'Cantarell', sans-serif;
     color: var(--background);
@@ -38,7 +42,7 @@ export const Container = styled.section`
         }
 
         p{
-            width: 80rem;
+            width: 86%;
             font-size: 1.4rem;
             font-weight: 100;
 

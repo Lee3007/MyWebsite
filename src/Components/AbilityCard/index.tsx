@@ -13,7 +13,7 @@ export function AbilityCard(){
                     <p>There I created a solid foundation in <strong>mathematics, physics and logic</strong>, and still am developing some project management skills.</p>
                     
                 </div>
-                <div className='verticalDivider'></div>
+                <div className='divider'></div>
                 <div className="section">
                     <div className="iconWrapper">
                         <svg className="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
@@ -22,7 +22,7 @@ export function AbilityCard(){
                     <p>I am currently working in a <strong>research, extension and teaching group</strong> inside university called PETECO, in which I developed a game to teach children about Computer Thinking, a Python mini-course, and others!</p>
                     <p>Still quite inexperienced, though I wish to land an <strong>internship</strong>, or start working as a <strong>Junior developer</strong> as soon as possible.</p>
                 </div>
-                <div className='verticalDivider'></div>
+                <div className='divider'></div>
                 <div className="section">
                     <div className="iconWrapper">
                         <svg className="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>

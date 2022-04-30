@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
     margin: auto;
     max-width: 80rem;
+    margin-bottom: 10rem;
 
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ export const Container = styled.section`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        /* flex-wrap: wrap; */
 
         background-color: var(--background2);
         border-radius: 2rem;
@@ -33,6 +35,16 @@ export const Container = styled.section`
         padding-right: 2rem;
     }
 
+    @media (max-width: 660px){
+        width: 30%;
 
-    margin-bottom: 10rem; //temporary
+        ul{
+            padding: 3rem;
+            height: 40rem;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
 `;

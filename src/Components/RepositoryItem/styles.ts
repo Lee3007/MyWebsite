@@ -64,4 +64,16 @@ export const ReposContainer = styled.div`
         }
     }
 
+    @media (max-width: 660px){
+        width: 96%;
+
+        img{
+            aspect-ratio: 1/1;
+            width: 100%;
+            height: auto;
+            
+        }
+
+    }
+
 `

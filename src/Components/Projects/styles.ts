@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Waves = styled.svg`
     z-index: -1;
     width: 100%;
-    background-color: var(--background)
+    background-color: var(--background);
 `;
 
 export const Container = styled.section`

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 55vh;
+    height: 34rem;
     background-color: var(--alt1);
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     .cardWrapper{
         width: 80rem;
-        height: 55vh;
+        min-height: 34rem;
         background-color: var(--background);
         border-radius: 1rem;
         z-index: 10;
@@ -79,12 +79,42 @@ export const Container = styled.div`
             
         }
 
-        .verticalDivider{
+        .divider{
             border-radius: 1px;
             height: 80%;
             width: 1px;
             background-color: var(--background2);
         }
+
+    }
+
+    @media (max-width: 660px){
+        height: 100rem;
+        width: 100%;
+        background-color: var(--alt1);
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .cardWrapper{
+            flex-direction: column;
+            width: 40rem;
+
+            .section{
+                height: 35rem;
+                width: 32rem;
+                margin-top: -3rem;
+            }
+
+            .divider{
+                height: 1px;
+                width: 80%;
+                margin-bottom: 6rem;
+            }
+
+        }
+
 
     }
 

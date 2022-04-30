@@ -7,8 +7,8 @@ export function Introduction(){
         <Container>
             
             <section>
-                <h1>A Wannabe Full Stack Developer!</h1>
-                <h2>I'm a hardworking university student developing my career.</h2>
+                <h1>A Future Full Stack Developer!</h1>
+                <h2>I'm an ambitious university student developing my career.</h2>
                 <img src={profPic2}></img>
             </section>
             
