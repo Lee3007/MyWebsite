@@ -67,6 +67,10 @@ export const ReposContainer = styled.div`
     @media (max-width: 660px){
         width: 96%;
 
+        p{
+            overflow: auto;
+        }
+
         img{
             aspect-ratio: 1/1;
             width: 100%;

@@ -38,8 +38,30 @@ export const Container = styled.section`
             }
 
             p{
+                font-size: 1rem;
                 font-style: italic;
                 font-weight: 100;
+            }
+
+        }
+
+    }
+
+    @media (max-width: 990px) {
+
+        div.wrapper{
+            width: 100%;
+
+            div{
+                width: 100%;
+
+                h2{
+                    width: 100%;
+                }
+
+                p{
+                    width: 100%;
+                }
             }
 
         }

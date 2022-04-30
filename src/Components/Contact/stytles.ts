@@ -45,6 +45,17 @@ export const Container = styled.section`
             align-items: center;
         }
 
+        h1.contactSectionTitle{
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Cantarell',sans-serif;
+        color: var(--alt1);
+
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
     }
 
 `;

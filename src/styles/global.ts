@@ -43,6 +43,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html{
+
         @media (min-width: 3440px){
             font-size: 131.25%;
         }

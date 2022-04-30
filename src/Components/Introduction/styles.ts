@@ -55,4 +55,17 @@ export const Container = styled.div`
 
     }
 
+    @media (max-width: 350px){
+        section{
+            h1{
+                font-size: 2.5rem;
+            }
+            h2{
+                font-size: 0.8rem
+            }
+
+        }
+        
+    }
+
 `;
