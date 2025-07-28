@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Início",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Estudante de Engenharia de Computação no último ano e Desenvolvedor Full Stack com experiência prática na construção de aplicações web completas.",
+    "cta": "Entre em contato"
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "current": "Atual",
+    "companies": {
+      "shaw": {
+        "name": "Shaw And Partners",
+        "role": "Desenvolvedor Full-Stack",
+        "location": "Remoto, EUA",
+        "duration": "Set 2024 - Atual",
+        "description": [
+          "Transformei designs do Figma em interfaces web responsivas e pixel-perfect usando TypeScript, React e TailwindCSS",
+          "Contribuí para um monorepo de grande escala desenvolvendo e mantendo uma biblioteca abrangente de componentes reutilizáveis",
+          "Identifiquei, depurei e resolvi bugs complexos de UI/UX, melhorando significativamente a estabilidade da aplicação",
+          "Montei rapidamente aplicações prontas para clientes usando recursos e componentes pré-construídos",
+          "Implementei integração de API backend para conectar serviços externos com sistemas internos"
+        ]
+      },
+      "driva": {
+        "name": "Driva",
+        "role": "Desenvolvedor Full-Stack",
+        "location": "Curitiba, PR, BR",
+        "duration": "Set 2022 - Set 2024",
+        "description": [
+          "Projetei e mantive aplicações full-stack usando React, TypeScript e NestJS",
+          "Melhorei o desempenho e confiabilidade do backend otimizando consultas complexas PostgreSQL",
+          "Contribuí para um serviço de autenticação crítico e compartilhado usado em vários microsserviços",
+          "Colaborei diretamente com Gerentes de Produto e Product Owners dentro de uma estrutura Ágil",
+          "Arquitetei e mantive um pipeline de dados robusto, orquestrando web scraping, armazenamento AWS e processamento de dados"
+        ]
+      },
+      "peteco": {
+        "name": "PETECO - UTFPR",
+        "role": "Bolsista",
+        "location": "Curitiba, PR, BR",
+        "duration": "Ago 2021 - Set 2022",
+        "description": [
+          "Contribuí no desenvolvimento de um jogo que ensinaria Pensamento Computacional para crianças",
+          "Contribuí no desenvolvimento de um mini curso de Python para ensinar o básico de Python no Instagram"
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Educação",
+    "degree": "Bacharelado em Engenharia de Computação",
+    "university": "Universidade Tecnológica Federal do Paraná",
+    "location": "Curitiba, PR, BR",
+    "duration": "Jan 2020 - Dez 2025",
+    "description": "Formatura prevista: Dezembro 2025"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technical": "Habilidades Técnicas",
+    "languages": "Idiomas",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Banco de Dados",
+      "tools": "Ferramentas e Outros"
+    },
+    "languagesList": {
+      "english": "Inglês (C2 - Proficiente)",
+      "portuguese": "Português (Nativo)"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "viewCode": "Ver Código",
+    "liveDemo": "Demo",
+    "technologies": "Tecnologias:",
+    "list": {
+      "tictactoe": {
+        "title": "Jogo da Velha JS",
+        "description": "Jogo da Velha clássico implementado com JavaScript puro, demonstrando manipulação do DOM e lógica de jogo",
+        "tech": ["JavaScript", "HTML5", "CSS"]
+      },
+      "snake": {
+        "title": "Snake JS",
+        "description": "Jogo Snake clássico construído com JavaScript puro, demonstrando fundamentos de desenvolvimento de jogos e manipulação de canvas",
+        "tech": ["JavaScript", "HTML5", "CSS"]
+      },
+      "website": {
+        "title": "Meu Site Portfolio",
+        "description": "Site portfolio pessoal desenvolvido com TypeScript, React e soluções modernas de estilização",
+        "tech": ["TypeScript", "React", "TailwindCSS"]
+      },
+      "magic": {
+        "title": "Magic Golems",
+        "description": "Jogo de plataforma desenvolvido usando princípios de Orientação a Objetos e Estruturas de Dados em C++ com SFML",
+        "tech": ["C++", "SFML", "POO", "UML"]
+      },
+      "hamiltonian": {
+        "title": "Ciclo Hamiltoniano",
+        "description": "Algoritmo para verificar se um grafo de 5 vértices é Hamiltoniano usando técnicas de backtracking",
+        "tech": ["C", "Algoritmos", "Estruturas de Dados"]
+      },
+      "microprocessor": {
+        "title": "Micro-processador",
+        "description": "Arquitetura de processador completa projetada e implementada usando VHDL, demonstrando princípios de arquitetura de computadores",
+        "tech": ["VHDL", "Arquitetura de Computadores", "Design Digital"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Sinta-se à vontade para entrar em contato para oportunidades ou apenas um olá amigável!",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "madeWith": "Feito com",
+    "by": "por"
+  }
+}

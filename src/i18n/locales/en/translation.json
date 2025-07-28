@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Full Stack Developer",
+    "description": "Final-year Computer Engineering student and Full Stack Developer with hands-on experience building end-to-end web applications.",
+    "cta": "Get in touch"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "current": "Current",
+    "companies": {
+      "shaw": {
+        "name": "Shaw And Partners",
+        "role": "Full-Stack Developer",
+        "location": "Remote, USA",
+        "duration": "Sep 2024 - Current",
+        "description": [
+          "Transformed Figma designs into responsive, pixel-perfect web interfaces using TypeScript, React and TailwindCSS",
+          "Contributed to a large-scale monorepo by developing and maintaining a comprehensive library of reusable components",
+          "Identified, debugged, and resolved complex UI/UX bugs, significantly improving application stability",
+          "Quickly assembled client-ready applications using pre-built features and components",
+          "Implemented backend API integration to connect external services with internal systems"
+        ]
+      },
+      "driva": {
+        "name": "Driva",
+        "role": "Full-Stack Developer",
+        "location": "Curitiba, PR, BR",
+        "duration": "Sep 2022 - Sep 2024",
+        "description": [
+          "Engineered and maintained full-stack applications using React, TypeScript, and NestJS",
+          "Boosted backend performance and reliability by optimizing complex PostgreSQL queries",
+          "Contributed to a critical, shared authentication service used across multiple microservices",
+          "Collaborated directly with Product Managers and Product Owners within an Agile framework",
+          "Architected and maintained a robust data pipeline, orchestrating web scraping, AWS storage, and data processing"
+        ]
+      },
+      "peteco": {
+        "name": "PETECO - UTFPR",
+        "role": "Scholarship Holder",
+        "location": "Curitiba, PR, BR",
+        "duration": "Aug 2021 - Sep 2022",
+        "description": [
+          "Contributed in the development of a game that would teach Computational Thinking to children",
+          "Contributed in the development of a mini python course to teach the basics of Python on Instagram"
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor of Computer Engineering",
+    "university": "Federal Technological University of Paraná",
+    "location": "Curitiba, PR, BR",
+    "duration": "Jan 2020 - Dec 2025",
+    "description": "Expected graduation: December 2025"
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": "Technical Skills",
+    "languages": "Languages",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools & Others"
+    },
+    "languagesList": {
+      "english": "English (C2 - Proficient)",
+      "portuguese": "Portuguese (Native)"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewCode": "View Code",
+    "liveDemo": "Live Demo",
+    "technologies": "Technologies:",
+    "list": {
+      "tictactoe": {
+        "title": "TicTacToe JS",
+        "description": "Classic Tic-Tac-Toe game implemented with pure Vanilla JavaScript, demonstrating DOM manipulation and game logic",
+        "tech": ["JavaScript", "HTML5", "CSS"]
+      },
+      "snake": {
+        "title": "Snake JS",
+        "description": "Classic Snake game built with Vanilla JavaScript, showcasing game development fundamentals and canvas manipulation",
+        "tech": ["JavaScript", "HTML5", "CSS"]
+      },
+      "website": {
+        "title": "My Portfolio Website",
+        "description": "Personal portfolio website developed with TypeScript, React and modern styling solutions",
+        "tech": ["TypeScript", "React", "TailwindCSS"]
+      },
+      "magic": {
+        "title": "Magic Golems",
+        "description": "Platform game developed using Object-Oriented principles and Data Structures in C++ with SFML",
+        "tech": ["C++", "SFML", "OOP", "UML"]
+      },
+      "hamiltonian": {
+        "title": "Hamiltonian Cycle",
+        "description": "Algorithm to verify whether a 5-vertex graph is Hamiltonian using backtracking techniques",
+        "tech": ["C", "Algorithms", "Data Structures"]
+      },
+      "microprocessor": {
+        "title": "Micro-processor",
+        "description": "Complete processor architecture designed and implemented using VHDL, demonstrating computer architecture principles",
+        "tech": ["VHDL", "Computer Architecture", "Digital Design"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out for opportunities or just a friendly hello!",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with",
+    "by": "by"
+  }
+}
